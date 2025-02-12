@@ -27,7 +27,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import notes from "./notes.jpg";
+import notes from "./notes_logo.png";
 import pocketNotes from "./pocketnotes.png";
 
 
