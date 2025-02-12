@@ -23,7 +23,9 @@ import {
     portfoliopro,
     tab,
     notes,
-    pocketNotes
+    pocketNotes,
+    search_logo,
+    jobListings
   } from "../assets";
   
   export const navLinks = [
@@ -122,7 +124,7 @@ management and backend communication, ensuring high availability and performance
     },
       {
       title: "Job Listings",
-      icon: youtube,
+      icon: search_logo,
       iconBg: "#383E56",
       points: [
           "Developed a full-stack job listing platform with JWT-based authentication.",
@@ -218,7 +220,7 @@ dynamic note organization.`
           color: "pink-text-gradient",
         },
       ],
-      image: youtubepro,
+      image: jobListings,
       source_code_link: "https://github.com/Ashita28/jobListing_frontend",
       source_code_link: "https://github.com/Ashita28/jobListing_backend",
       deployed_link: "https://job-listing-frontend-kappa.vercel.app/"
