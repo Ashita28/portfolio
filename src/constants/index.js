@@ -14,7 +14,6 @@ import {
     mongodb,
     git,
     figma,
-    threejs,
     youtube,
     dashboard,
     metaverse,
@@ -97,10 +96,6 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
     },
@@ -111,11 +106,43 @@ import {
   ];
   
   const experiences = [
+      {
+      title: "Link Shortner",
+      icon: youtube,
+      iconBg: "#383E56",
+      points: [
+          `Developed a robust URL Shortener application with a mobile-first, responsive frontend using React.js,
+enabling users to efficiently shorten URLs, copy links, and monitor performance with real-time analytics.`,
+          "Implemented secure user authentication using JWT, ensuring protected access to application features.",
+          `Designed and integrated scalable RESTful APIs with Express.js and MongoDB to enable seamless link
+management and backend communication, ensuring high availability and performance.`
+      ],
+    },
+      {
+      title: "Job Listings",
+      icon: youtube,
+      iconBg: "#383E56",
+      points: [
+          "Developed a full-stack job listing platform with JWT-based authentication.",
+          "Enabled recruiters to manage job postings and job seekers to apply.",
+          "Implemented structured validation for job creation, editing, and deletion.",
+          "Secured protected routes to restrict modifications to authorized users."
+      ],
+    },
+      {
+      title: "Pocket Notes",
+      icon: youtube,
+      iconBg: "#383E56",
+      points: [
+          `Developed a Pocket Notes application using React.js, local Storage for data persistence, React Router for
+seamless navigation, Redux Toolkit for state management, and features like a color picker, modals, and
+dynamic note organization.`
+      ],
+    },
     {
       title: "Youtube clone",
       icon: youtube,
       iconBg: "#383E56",
-      date: "March 2020 - April 2020",
       points: [
         "Developed web applications using React.js, Material UI and RapidAPI.",
         "It is a fully responsive youtube web application.",
@@ -127,7 +154,6 @@ import {
       title: "Metaverse",
       icon: metaverse,
       iconBg: "#383E56",
-      date: "Jan 2021 - Feb 2021",
       points: [
         "A Beautiful NEXT.js landing page.",
         "Developed using React, Next.js, Framer Motion, Figma & Tailwind CSS.",
@@ -138,7 +164,6 @@ import {
       title: "Admin-BOARD",
       icon: dashboard,
       iconBg: "#383E56",
-      date: "July 2022 - September 2022",
       points: [
         "It is an Admin dashboard (developed using MERN stack).",
         "Developed using MERN Stack (MongoDB, Express, React, Node.js), Redux Toolkit Query, Tailwind css.",
@@ -146,20 +171,78 @@ import {
         "This is a fully responsive Admin Dashboard which displays data in forms of tables, pie charts and graphs."
       ],
     },
-    {
-      title: "Portfolio",
-      icon: tab,
-      iconBg: "#383E56",
-      date: "Jan 2023 - Present",
-      points: [
-        "It is a 3D Portfolio web application.",
-        "Developed using React, Vite, Three.js, Framer Motion, React Three Fiber, Tailwind css."
-      ],
-    },
   ];
   
   
   const projects = [
+      {
+      name: "Link Shortner",
+      description:
+        "A link shortner web application.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "material_ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: youtubepro,
+      source_code_link: "https://github.com/Ashita28/linkShortner_frontend",
+      source_code_link: "https://github.com/Ashita28/linkShortner_server",
+      deployed_link: "https://link-shortner-frontend-green.vercel.app/"
+    },
+      {
+      name: "Job Listings",
+      description:
+        "A post, search job listing web application.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "material_ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: youtubepro,
+      source_code_link: "https://github.com/Ashita28/jobListing_frontend",
+      source_code_link: "https://github.com/Ashita28/jobListing_backend",
+      deployed_link: "https://job-listing-frontend-kappa.vercel.app/"
+    },
+      {
+      name: "Pocket Notes",
+      description:
+        "A minimalist notes web application.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rapidapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "material_ui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: youtubepro,
+      source_code_link: "https://github.com/Ashita28/pocketNotes",
+      deployed_link: "https://pocket-notes-b1d8.vercel.app/"
+    },  
     {
       name: "Youtube clone",
       description:
@@ -246,42 +329,7 @@ import {
       image: dashboardpro,
       source_code_link: "https://github.com/Ashita28/admin_board",
       deployed_link:"https://admin-board-0344.onrender.com"
-    },
-    {
-      name: "Portfolio",
-      description:
-        "It is a 3D Portfolio web application.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "three_js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "react_three_fiber",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "framer_motion",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "pink-text-gradient",
-        },
-        
-      ],
-      image: portfoliopro,
-      source_code_link: "https://github.com/Ashita28/portfolio",
-      deployed_link:"https://portfolio-nine-umber-96.vercel.app/"
-    },
+    }
   ];
   
   export { services, technologies, experiences, projects };
