@@ -25,7 +25,9 @@ import {
     notes,
     pocketNotes,
     search_logo,
-    jobListings
+    jobListings,
+    link_logo,
+    urlshortner
   } from "../assets";
   
   export const navLinks = [
@@ -112,7 +114,7 @@ import {
   const experiences = [
       {
       title: "Link Shortner",
-      icon: youtube,
+      icon: link_logo,
       iconBg: "#383E56",
       points: [
           `Developed a robust URL Shortener application with a mobile-first, responsive frontend using React.js,
@@ -197,7 +199,7 @@ dynamic note organization.`
           color: "pink-text-gradient",
         },
       ],
-      image: youtubepro,
+      image: urlshortner,
       source_code_link: "https://github.com/Ashita28/linkShortner_frontend",
       source_code_link: "https://github.com/Ashita28/linkShortner_server",
       deployed_link: "https://link-shortner-frontend-green.vercel.app/"
