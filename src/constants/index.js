@@ -21,7 +21,9 @@ import {
     metaversepro,
     dashboardpro,
     portfoliopro,
-    tab
+    tab,
+    notes,
+    pocketNotes
   } from "../assets";
   
   export const navLinks = [
@@ -131,7 +133,7 @@ management and backend communication, ensuring high availability and performance
     },
       {
       title: "Pocket Notes",
-      icon: youtube,
+      icon: notes,
       iconBg: "#383E56",
       points: [
           `Developed a Pocket Notes application using React.js, local Storage for data persistence, React Router for
@@ -239,7 +241,7 @@ dynamic note organization.`
           color: "pink-text-gradient",
         },
       ],
-      image: youtubepro,
+      image: pocketNotes,
       source_code_link: "https://github.com/Ashita28/pocketNotes",
       deployed_link: "https://pocket-notes-b1d8.vercel.app/"
     },  
