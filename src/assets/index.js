@@ -31,6 +31,8 @@ import notes from "./notes_logo.png";
 import pocketNotes from "./pocketnotes.png";
 import search_logo from "./search_logo.png";
 import jobListings from "./jobListings.png";
+import link_logo from "./link_shortner.png";
+import urlshortner from "./urlshortner.png";
 
 
 export {
@@ -66,5 +68,7 @@ export {
   notes,
   pocketNotes,
   search_logo,
-  jobListings
+  jobListings,
+  link_logo,
+  urlshortner
 };
