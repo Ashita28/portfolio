@@ -60,7 +60,7 @@ export {
   dashboardpro,
   deployed,
   portfoliopro,
-  tab.
+  tab,
   notes,
   pocketNotes
 };
