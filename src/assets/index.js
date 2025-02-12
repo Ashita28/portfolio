@@ -29,6 +29,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import notes from "./notes_logo.png";
 import pocketNotes from "./pocketnotes.png";
+import search_logo from "./search_logo.png";
+import jobListings from "./jobListings.png";
 
 
 export {
@@ -62,5 +64,7 @@ export {
   portfoliopro,
   tab,
   notes,
-  pocketNotes
+  pocketNotes,
+  search_logo,
+  jobListings
 };
