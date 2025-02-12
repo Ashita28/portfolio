@@ -15,7 +15,6 @@ import dashboardpro from './dashboardpro.png';
 import deployed from './deployed.png';
 import portfoliopro from './portfoliopro.png';
 import tab from './tab.png'
-
 import css from "./tech/css.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -28,6 +27,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import notes from "./notes.jpg";
+import pocketNotes from "./pocketnotes.png";
 
 
 export {
@@ -59,5 +60,7 @@ export {
   dashboardpro,
   deployed,
   portfoliopro,
-  tab
+  tab.
+  notes,
+  pocketNotes
 };
